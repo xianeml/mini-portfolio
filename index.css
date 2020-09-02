@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.head-bar{
+    background: #ffff1c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00c3ff, #ffff1c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00c3ff, #ffff1c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 2px 2px 2px 5%;
+}
+
+.header{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+h1 {
+	font-size: 7rem;
+	color: #00c3ff;
+	margin: 30px;
+}
+
+.z-text:hover {
+	transform: rotateX(-15deg);
+	transition: transform 1s;
+}
+
+.z-layer:not(:first-child) {
+	color:#ffff1c;
+}
+
+#profile {
+    border: 15px solid #00c3ff;
+    width: 60%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    float: left;
+    margin: 5% 0 10% 15%;
+    border-radius: 50%; 
+    -webkit-box-shadow: 3px 3px 9px -4px #ffff1c;
+    -moz-box-shadow: 3px 3px 9px -4px #ffff1c;
+    box-shadow: 3px 3px 9px -4px #ffff1c;
+}
+
+.p-text{
+    clear: both;
+    font-size: 25px;
+    line-height:2;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.text{
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.title{
+    color : #00c3ff;
+    transition: transform 0.2s;
+    margin-top: 10%;
+}
+
+.title:hover{
+    transform: scale(1.2);
+}
+
+.project{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project2{
+    margin-bottom: 5%;
+}
+
+.project a{
+    text-decoration: none;
+}
+
+.box{
+    float: left;
+    margin-bottom: 3%;
+}
+
+.box img {
+    width: 500px;
+    height: 330px;
+    border: 10px solid #00c3ff;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.box h2{
+    color: #00c3ff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+.footer {
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#contact{
+    color: black;
+    font-weight: bold;
+}
+
+.footer a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer a:hover{
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s;
+}
