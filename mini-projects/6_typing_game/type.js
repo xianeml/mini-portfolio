@@ -20,9 +20,7 @@ function start(){
     word.textContent = randomWord();
 }
 
-startBtn.addEventListener("click", start);
-
-checkBtn.addEventListener("click", function(event){
+function check(){
     if(input.value == word.textContent){
         comment.textContent = 'Right!!!';
         score.textContent = scoreSet+=1;
@@ -37,5 +35,14 @@ checkBtn.addEventListener("click", function(event){
     }else{
         comment.textContent = 'Type something!';
     }
-    event.preventDefault;
+}
+
+startBtn.addEventListener("click", start);
+
+checkBtn.addEventListener("click", check);
+
+input.addEventListener("keyup", function(e){
+    if(e.keyCode === 13){
+        check();
+    }
 })
